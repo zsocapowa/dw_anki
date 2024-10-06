@@ -7,6 +7,8 @@ setup(
     install_requires=[
         'lxml',
         'requests',
+        'tqdm',
+        'aiohttp'
     ],
     entry_points={
         'console_scripts': [
